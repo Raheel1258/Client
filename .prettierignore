@@ -1,0 +1,16 @@
+# Lock file
+pnpm-lock.yaml
+yarn.lock
+.env
+node_modules
+dist
+.vscode
+.idea
+.DS_Store
+.gitignore
+.git
+.prettierrc
+.prettierignore
+.husky
+.gitignore
+.git
