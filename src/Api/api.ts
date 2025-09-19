@@ -2,11 +2,9 @@ import type { contactform } from '@/types/contactform';
 import type { newsletter } from '@/types/newsletter';
 import axios from 'axios';
 
-const API_KEY = import.meta.env.VITE_API_KEY;
-console.log('API_KEY', API_KEY);
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api/',
+  baseURL: import.meta.env.VITE_API_URL,
   headers: {
     'Content-Type': 'application/json',
   },
