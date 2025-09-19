@@ -14,7 +14,7 @@ const api = axios.create({
 console.log('BASE_URL:', BASE_URL);
 
 export const contactForm = async (data: contactform) => {
-  const response = await api.post('form/contact', data); 
+  const response = await api.post('form/contact', data);
   return response.data;
 };
 
